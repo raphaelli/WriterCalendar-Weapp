@@ -19,7 +19,7 @@ Page({
       weekend: true
     }, {
       name: "锻炼一下身体",
-      good: "只有的强健的右手，才能让你时速过万！",
+      good: "强健的双手，让你时速破万！",
       bad: "能量没消耗多少，吃得却更多",
       weekend: true
     }, {
@@ -34,7 +34,7 @@ Page({
       weekend: true
     }, {
       name: "开新书",
-      good: "一个绝对爆火的开篇已然在脑海中形成",
+      good: "一个绝对爆火的脑洞已然诞生",
       bad: "新书必扑"
     }, {
       name: "切书",
@@ -62,7 +62,7 @@ Page({
       bad: "烂醉如泥，忘记更新"
     }, {
       name: "改文",
-      good: "优化前文情节，吸引新读者的几率大大增加",
+      good: "吸引新读者的几率大大增加",
       bad: "越改越差，白白浪费时间"
     }, {
       name: "打LOL",
@@ -79,6 +79,11 @@ Page({
       bad: "存下的稿件可能会丢",
       weekend: true
     },{
+      name: "给群友发红包",
+      good: "发的越多，这个月稿费越多",
+      bad: "可能会吃不起午饭",
+      weekend: true
+    }, {
       name: "刷微博",
       good: "今天发生的事不能错过",
       bad: "今天的微博充满负能量",
@@ -117,7 +122,8 @@ Page({
       "badList": badList,
       "direction": directions[this.random(iday, 2) % directions.length],
       "drinks": this.pickRandom(drinks, 2),
-      "stars": this.star(this.random(iday, 6) % 5 + 1)
+      // "stars": this.star(this.random(iday, 6) % 5 + 1),
+      "nums": (this.random(iday, 6) % 5 + 3)*1000
     }
     return totalList;
   },

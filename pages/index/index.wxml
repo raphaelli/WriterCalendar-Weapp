@@ -1,8 +1,8 @@
 
 <!--index.wxml-->
 <view class="container">
-  <view class="top">网文作家黄历</view>
-  <text class="date">{{today.today}}</text>
+  <!-- <view class="top">网文作家黄历</view> -->
+  <text class="top">{{today.today}}</text>
   <view class="yiContainer">
     <view class="yiTextContainer">
       <text class="yi">宜</text>
@@ -31,6 +31,6 @@
   </view>
   <text class="tag ">座位朝向：面向{{today.direction}}更新，更新质量更佳。</text>
   <text class="tag ">今日宜饮：{{today.drinks}}</text>
-  <text class="tag ">推荐爆更指数：{{today.stars}}</text>
-  <view class="buttom"></view>
+  <text class="tag ">推荐更新字数：{{today.nums}}</text>
+  <!-- <view class="buttom"></view> -->
 </view>
