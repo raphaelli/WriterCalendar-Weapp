@@ -84,9 +84,17 @@ font-size: 20px;
   font-size: 15px;
   color: #7a7e7c;
 }
+.top{
+  background: #7a7e7c;
+  font-weight: 800;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
 
 .date{
   background: #fff;
+  font-weight: 800;
   padding: 10px;
   color: #000;
   font-size: 20px;
@@ -102,4 +110,13 @@ font-size: 20px;
   flex: 1;
   flex-direction: column;
   margin-bottom:10px; 
+}
+
+.buttom{
+  margin-top: 4%;
+  background: #7a7e7c;
+  font-weight: 800;
+  padding: 10px;
+  color: #000;
+  font-size: 20px;
 }
